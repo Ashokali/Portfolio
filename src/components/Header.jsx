@@ -33,7 +33,7 @@ const Logo = styled.a`
 `;
 
 const Nav = styled.nav`
-  width: 35rem;
+  width: 28rem;
   max-width: 40rem;
   display: flex;
   align-items: center;
@@ -238,7 +238,7 @@ const Header = () => {
         <h1 className="font-bold text-3xl">&nbsp;Code</h1>
       </Logo>
       <Nav>
-        <a href="#home" onClick={(e) => scrollUp("home", e)}>
+        <a href="#" onClick={(e) => scrollUp("home", e)}>
           Home
         </a>
         <a href="#about" onClick={(e) => scrollUp("about", e)}>
